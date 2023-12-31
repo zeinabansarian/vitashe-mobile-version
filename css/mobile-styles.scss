@@ -293,4 +293,31 @@ table {
         transition: 0.5s ease-in-out;
     }
   }
+  footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    .downloadVita {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 23px 51px 23px;
+        align-items: center;
+        & > a {
+          text-decoration: none;
+          color: white;
+          font-family: "HankenGrotesk";
+          font-weight: 300;
+          font-size: 12px;
+          width: 137px;
+          line-height: 15.64px;
+          text-align: right;
+        }
+        .socialBtns {
+          display: flex;
+          align-items: center;
+          column-gap: 14px;
+        }
+      }
+  }
 }
