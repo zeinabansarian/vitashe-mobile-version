@@ -197,6 +197,9 @@ table {
 // }
 
 @media only screen and (max-width: 576px) {
+  body {
+    background-color: #171718;
+  }
   header {
     background-color: #b9b9ba;
     display: flex;
@@ -429,34 +432,71 @@ table {
       &.swiper-slide-active {
         transform: scale(1);
       }
-      a{
+      a {
         text-decoration: none;
         color: white;
         text-align: center;
-        .defaultTitle{
-            height: fit-content;
-            overflow: hidden;
-            h2{
-                font-family: "HankenGrotesk";
-                font-weight: 400;
-                font-size: 24px;
-                margin-top: 17px;
-                line-height: 31.27px;
-                white-space: nowrap;
-                transform: translateY(100%);
-                transition: 0.5s ease-in-out;
-            }
+        .defaultTitle {
+          height: fit-content;
+          overflow: hidden;
+          h2 {
+            font-family: "HankenGrotesk";
+            font-weight: 400;
+            font-size: 24px;
+            margin-top: 17px;
+            line-height: 31.27px;
+            white-space: nowrap;
+            transform: translateY(100%);
+            transition: 0.5s ease-in-out;
+          }
         }
       }
     }
-    .swiper-slide-active{
-        .defaultTitle{
-            h2{
-
-                transform: translateY(0)!important;
-                transition: 1s ease-in-out!important;
-            }
+    .swiper-slide-active {
+      .defaultTitle {
+        h2 {
+          transform: translateY(0) !important;
+          transition: 1s ease-in-out !important;
         }
+      }
+    }
+  }
+  .catalog {
+    background-color: #171718;
+    padding: 55px 25px;
+    h1 {
+      font-weight: 300;
+      font-family: "HankenGrotesk";
+      color: white;
+      font-size: 24px;
+    }
+    .catalogList {
+      margin-top: 60px;
+      ul {
+        li {
+          display: flex;
+          justify-content: space-between;
+          padding: 21px 0;
+          border-bottom: 1px solid white;
+          h4 {
+            font-size: 15px;
+            font-weight: 300;
+            color: white;
+            font-family: "HankenGrotesk";
+            line-height: 19.54px;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            span {
+              font-size: 10px;
+              font-weight: 300;
+              color: white;
+              font-family: "HankenGrotesk";
+            }
+          }
+        }
+      }
     }
   }
 }

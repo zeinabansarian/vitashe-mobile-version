@@ -131,6 +131,9 @@ table {
 }
 
 @media only screen and (max-width: 576px) {
+  body {
+    background-color: #171718;
+  }
   header {
     background-color: #b9b9ba;
     display: flex;
@@ -383,5 +386,41 @@ table {
   .default .swiper-slide-active .defaultTitle h2 {
     transform: translateY(0) !important;
     transition: 1s ease-in-out !important;
+  }
+  .catalog {
+    background-color: #171718;
+    padding: 55px 25px;
+  }
+  .catalog h1 {
+    font-weight: 300;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-size: 24px;
+  }
+  .catalog .catalogList {
+    margin-top: 60px;
+  }
+  .catalog .catalogList ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+    border-bottom: 1px solid white;
+  }
+  .catalog .catalogList ul li h4 {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    font-family: "HankenGrotesk";
+    line-height: 19.54px;
+  }
+  .catalog .catalogList ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .catalog .catalogList ul li a span {
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    font-family: "HankenGrotesk";
   }
 }/*# sourceMappingURL=mobile-styles.css.map */
