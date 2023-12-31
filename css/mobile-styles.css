@@ -173,8 +173,7 @@ table {
     padding-top: 131px;
   }
   .openHamburgurMenu .menuList ul li {
-    margin-bottom: 40px;
-    overflow: hidden;
+    padding-bottom: 40px;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -185,7 +184,8 @@ table {
     font-family: "HankenGrotesk";
     font-weight: 300;
     font-size: 24px;
-    transform: translateY(-100%);
+    transform: translateY(150%);
+    opacity: 0;
   }
   .openHamburgurMenu .downloadVita {
     display: flex;
@@ -248,5 +248,53 @@ table {
     align-items: center;
     -moz-column-gap: 14px;
          column-gap: 14px;
+  }
+  .footer2 {
+    background-color: #272727;
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: 49px 24px 9px 24px;
+  }
+  .footer2 .footerMenu {
+    margin-top: 29px;
+  }
+  .footer2 .footerMenu ul {
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .footer2 .footerMenu ul li a {
+    font-family: "HankenGrotesk";
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .footer2 .footerSocialBtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+  }
+  .footer2 .copyRight {
+    margin-top: 50px;
+  }
+  .footer2 .copyRight p {
+    font-weight: 200;
+    font-size: 10.79px;
+    line-height: 14.06px;
+    font-family: "HankenGrotesk";
+    color: #F8F7F7;
+    margin-bottom: 10.5px;
+  }
+  .footer2 .copyRight p strong {
+    font-weight: 500;
+  }
+  .footer2 .copyRight p a {
+    font-weight: 500;
+    color: #F8F7F7;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=mobile-styles.css.map */

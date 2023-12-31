@@ -11,12 +11,19 @@ menuBar.addEventListener("click", function (e) {
       duration: 1.5,
     });
     menuList.forEach(function (e) {
-      gsap.to(e, {
-        stagger: 0.7,
+      gsap.fromTo(e,{
+        y: 80,
+        opacity:0,
+
+      }, {
+        stagger: 1,
         y: 0,
-        duration: 1.2,
+        duration: 1.5,
         delay: 1,
-      });
+        opacity:1,
+      }
+      
+      );
       console.log("open");
     });
   }else{
@@ -28,10 +35,10 @@ menuBar.addEventListener("click", function (e) {
     menuList.forEach(function (e) {
         console.log("close");
       gsap.to(e, {
-        // opacity: 0,
-        stagger:1.1,
-        y: -50,
-        duration: 1.7,
+        stagger:1,
+        y: -80,
+        opacity: 0,
+        duration: 1.5,
         delay: 0,
       });
     });
