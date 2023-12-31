@@ -1,0 +1,224 @@
+@import "../fonts/fontStyle.css";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    background-color: #b9b9ba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    z-index: 10;
+    position: relative;
+  }
+  header .menuBar {
+    position: relative;
+  }
+  header .menuBar span {
+    position: absolute;
+    background-color: #2d2f83;
+    width: 36.3px;
+    height: 1.82px;
+    right: 0;
+    transition: 0.5s ease-in-out;
+  }
+  header .menuBar span:first-child {
+    top: -3.5px;
+  }
+  header .menuBar span:last-child {
+    top: 3.5px;
+  }
+  .openHamburgurMenu {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-140%);
+    justify-content: space-between;
+  }
+  .openHamburgurMenu .menuList ul {
+    text-align: center;
+    padding-top: 131px;
+  }
+  .openHamburgurMenu .menuList ul li {
+    margin-bottom: 40px;
+    overflow: hidden;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .openHamburgurMenu .menuList ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: "HankenGrotesk";
+    font-weight: 300;
+    font-size: 24px;
+    transform: translateY(-100%);
+  }
+  .openHamburgurMenu .downloadVita {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px 51px 23px;
+    align-items: center;
+  }
+  .openHamburgurMenu .downloadVita > a {
+    text-decoration: none;
+    color: white;
+    font-family: "HankenGrotesk";
+    font-weight: 300;
+    font-size: 12px;
+    width: 137px;
+    line-height: 15.64px;
+    text-align: right;
+  }
+  .openHamburgurMenu .downloadVita .socialBtns {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
+  }
+  .closeClick span {
+    top: 0 !important;
+    transition: 0.5s ease-in-out;
+  }
+  .closeClick span:first-child {
+    transform: rotate(45deg);
+    transition: 0.5s ease-in-out;
+  }
+  .closeClick span:last-child {
+    transform: rotate(-45deg);
+    transition: 0.5s ease-in-out;
+  }
+}/*# sourceMappingURL=mobile-styles.css.map */
