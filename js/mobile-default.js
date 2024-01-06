@@ -2,7 +2,7 @@ let body = document.querySelector('body');
 let intro = document.querySelector(".intro");
 body.addEventListener("wheel", () => {
   gsap.to(".intro",{
-    y:'-100%',
+    y:'-150%',
     duration:2.1,
     delay:1,
   })
@@ -32,7 +32,7 @@ var mySwiper = new Swiper(".swiper-container", {
     slidesPerView: 2,
     delay: 0,
     centeredSlides: true,
-    spaceBetween: 100,
+    spaceBetween: 150,
     speed: 1500,
-    mousewheel: true,
+    mousewheel: false,
   });

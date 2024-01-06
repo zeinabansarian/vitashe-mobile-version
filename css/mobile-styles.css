@@ -135,20 +135,34 @@ table {
     background-color: #171718;
   }
   header {
-    background-color: #b9b9ba;
+    background-color: #171718;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
-    z-index: 10;
+    z-index: 100;
     position: relative;
+  }
+  header .rightSection {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+  }
+  header .rightSection > a {
+    font-family: "HankenGrotesk";
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
   }
   header .menuBar {
     position: relative;
+    width: 40px;
   }
   header .menuBar span {
     position: absolute;
-    background-color: #2d2f83;
+    background-color: white;
     width: 36.3px;
     height: 1.82px;
     right: 0;
@@ -160,6 +174,72 @@ table {
   header .menuBar span:last-child {
     top: 3.5px;
   }
+  .menuFooter {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px 10px 24px;
+  }
+  .menuFooter a {
+    position: relative;
+  }
+  .menuFooter > a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+  }
+  .menuFooter h3 {
+    margin-top: 14px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #171718;
+    text-align: center;
+    font-family: "VladimirScript";
+  }
+  .menuFooter .socialBtns {
+    margin-top: 23px;
+    display: flex;
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  .menuFooter .socialBtns a {
+    text-decoration: none;
+  }
+  .menuFooter .socialBtns::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    left: 0;
+    bottom: -19px;
+  }
+  .menuFooter .copyRight {
+    margin-top: 41px;
+  }
+  .menuFooter .copyRight p {
+    font-size: 9.36px;
+    font-family: "HankenGrotesk";
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  .menuFooter .copyRight p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+  }
   .openHamburgurMenu {
     background-color: #171718;
     position: absolute;
@@ -168,6 +248,7 @@ table {
     height: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 15;
     transform: translateY(-140%);
     justify-content: space-between;
   }
@@ -383,6 +464,9 @@ table {
     transform: translateY(100%);
     transition: 0.5s ease-in-out;
   }
+  .default .swiper-slide img {
+    width: 265px;
+  }
   .default .swiper-slide-active .defaultTitle h2 {
     transform: translateY(0) !important;
     transition: 1s ease-in-out !important;
@@ -390,6 +474,7 @@ table {
   .catalog {
     background-color: #171718;
     padding: 55px 25px;
+    min-height: 426px;
   }
   .catalog h1 {
     font-weight: 300;
@@ -422,5 +507,54 @@ table {
     font-weight: 300;
     color: white;
     font-family: "HankenGrotesk";
+  }
+  .productCat {
+    overflow: hidden;
+    min-height: 589px;
+    display: flex;
+    align-items: center;
+  }
+  .productCat .swiper-productCat {
+    width: 100%;
+  }
+  .productCat .swiper-productCat .swiper-slide a {
+    text-decoration: none;
+    color: #FFF4E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productCat .swiper-productCat .swiper-slide a h2 {
+    font-family: "AdobeArabic";
+    font-weight: 400;
+    font-size: 21.82px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 17px;
+  }
+  .projectShow .section1 {
+    margin-top: 96px;
+    margin-bottom: 89px;
+    padding: 0 21px 0 24px;
+  }
+  .projectShow .section1 .title {
+    margin-bottom: 81px;
+  }
+  .projectShow .section1 .title h1 {
+    color: #CBBBA0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "HankenGrotesk";
+  }
+  .projectShow .section1 .projectDetails ul li {
+    margin-top: 20px;
+    font-family: "HankenGrotesk";
+    font-weight: 300;
+    font-size: 16px;
+    color: #CBBBA0;
+  }
+  .projectShow .section1 .projectDetails ul li span {
+    color: white;
   }
 }/*# sourceMappingURL=mobile-styles.css.map */

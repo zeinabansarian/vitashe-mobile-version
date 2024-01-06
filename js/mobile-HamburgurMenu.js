@@ -28,7 +28,7 @@ menuBar.addEventListener("click", function (e) {
     });
   }else{
     gsap.to(".openHamburgurMenu", {
-      y: '-100%',
+      y: '-180%',
       duration: 2,
       delay:0.5,
     });

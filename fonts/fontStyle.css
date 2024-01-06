@@ -1,64 +1,105 @@
+/* HankenGrotesk */
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Thin.ttf") format("truetype");
-      font-weight: 100;
-      font-style: normal;
-      font-display: swap;
-      }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-ExtraLight.ttf") format("truetype");
-      font-weight: 200;
-      font-style: normal;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Light.ttf") format("truetype");
-      font-weight: 300;
-      font-style: normal;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Regular.ttf") format("truetype");
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Medium.ttf") format("truetype");
-      font-weight: 500;
-      font-style: normal;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-SemiBold.ttf") format("truetype");
-      font-weight: 600;
-      font-style: bold;
-      font-display: swap;
-  }
-  
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: bold;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Bold.ttf") format("truetype");
-      font-weight: 700;
-      font-style: bold;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-ExtraBold.ttf") format("truetype");
-      font-weight: 800;
-      font-style: bold;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
 @font-face {
-    font-family: "HankenGrotesk";
-    src:url("HankenGrotesk/HankenGrotesk-Black.ttf") format("truetype");
-      font-weight: 900;
-      font-style: bold;
-      font-display: swap;
-  }
+  font-family: "HankenGrotesk";
+  src: url("HankenGrotesk/HankenGrotesk-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bold;
+  font-display: swap;
+}
+
+/* ADOBE ARABIC */
+@font-face {
+font-family: "AdobeArabic";
+src: url("AdobeArabic/AdobeArabic-Regular.eot");
+src: url("AdobeArabic/AdobeArabic-Regular.eot?#iefix")
+    format("embedded-opentype"),
+  url("AdobeArabic/AdobeArabic-Regular.woff") format("woff"),
+  url("AdobeArabic/AdobeArabic-Regular.woff2") format("woff2"),
+  url("AdobeArabic/AdobeArabic-Regular.ttf") format("truetype");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: "AdobeArabic";
+src: url("AdobeArabic/AdobeArabic-Bold.eot");
+src: url("AdobeArabic/AdobeArabic-Bold.eot?#iefix")
+    format("embedded-opentype"),
+  url("AdobeArabic/AdobeArabic-Bold.woff") format("woff"),
+  url("AdobeArabic/AdobeArabic-Bold.woff2") format("woff2"),
+  url("AdobeArabic/AdobeArabic-Bold.ttf") format("truetype");
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+
+
+/* Vladimir Script */
+@font-face {
+font-family: "VladimirScript";
+src: url("VladimirScript/16ec6f04859822f03cf13eb919302dd1.eot");
+src: url("VladimirScript/16ec6f04859822f03cf13eb919302dd1.eot?#iefix")
+    format("embedded-opentype"),
+  url("VladimirScript/16ec6f04859822f03cf13eb919302dd1.woff") format("woff"),
+  url("VladimirScript/16ec6f04859822f03cf13eb919302dd1.woff2") format("woff2"),
+  url("VladimirScript/16ec6f04859822f03cf13eb919302dd1.ttf") format("truetype");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
