@@ -520,7 +520,7 @@ table {
   }
   .productCat .swiper-productCat .swiper-slide a {
     text-decoration: none;
-    color: #FFF4E2;
+    color: #fff4e2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,7 +542,7 @@ table {
     margin-bottom: 81px;
   }
   .projectShow .section1 .title h1 {
-    color: #CBBBA0;
+    color: #cbbba0;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 36px;
@@ -555,7 +555,7 @@ table {
     font-weight: 300;
     font-size: 16px;
     line-height: 19.2px;
-    color: #CBBBA0;
+    color: #cbbba0;
   }
   .projectShow .section1 .projectDetails ul li span {
     color: white;
@@ -751,6 +751,14 @@ table {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    position: relative;
+  }
+  .productList .arrow-scroll {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+    animation: 2s infinite arrow-scroll;
   }
   .productList .swiper-container .swiper-wrapper {
     padding-left: initial;
@@ -767,7 +775,7 @@ table {
   }
   .productList .swiperDetails .swiper-slide {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   .productList .swiperDetails .swiper-slide .slide-inner {
     transform: translateX(64%);
@@ -790,7 +798,7 @@ table {
     font-family: "HankenGrotesk";
     font-weight: 300;
     font-size: 12px;
-    color: #AEAEAE;
+    color: #aeaeae;
   }
   .productList .swiperDetails .swiper-slide p {
     color: white;
@@ -800,5 +808,77 @@ table {
     text-align: justify;
     font-weight: 300;
     margin-top: 25px;
+  }
+  .projectList {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .projectList .arrow-scroll {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+    animation: 2s infinite arrow-scroll;
+  }
+  .projectList .swiper-container .swiper-wrapper {
+    padding-left: initial;
+    margin: 0;
+  }
+  .projectList .swiper-container .swiper-slide {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .projectList .swiperDetails .swiper-slide-active .slide-inner {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+    transition: 0.5s 1s;
+  }
+  .projectList .swiperDetails .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  .projectList .swiperDetails .swiper-slide .slide-inner {
+    transform: translateX(64%);
+    opacity: 0;
+    transition: 0.5s;
+    padding: 32px 23px 0 26px;
+  }
+  .projectList .swiperDetails .swiper-slide a {
+    text-decoration: none;
+    color: white;
+  }
+  .projectList .swiperDetails .swiper-slide a h1 {
+    font-family: "HankenGrotesk";
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 21.6px;
+  }
+  .projectList .swiperDetails .swiper-slide span {
+    font-family: "HankenGrotesk";
+    font-weight: 300;
+    font-size: 12px;
+    color: #aeaeae;
+  }
+  .projectList .swiperDetails .swiper-slide p {
+    color: white;
+    font-size: 12px;
+    font-family: "HankenGrotesk";
+    line-height: 14.4px;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 25px;
+  }
+  @keyframes arrow-scroll {
+    0% {
+      transform: translateX(-70%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 0;
+    }
   }
 }/*# sourceMappingURL=mobile-styles.css.map */

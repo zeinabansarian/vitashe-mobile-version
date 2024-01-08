@@ -126,7 +126,6 @@ table {
   border-spacing: 0;
 }
 
-
 @media only screen and (max-width: 576px) {
   body {
     background-color: #171718;
@@ -137,18 +136,18 @@ table {
     justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
-    .rightSection{
+    .rightSection {
       display: flex;
       align-items: center;
       column-gap: 13px;
-      &>a{
+      & > a {
         font-family: "HankenGrotesk";
         color: white;
         text-decoration: none;
         font-weight: 300;
         font-size: 15px;
       }
-      }
+    }
     .menuBar {
       position: relative;
       width: 40px;
@@ -169,22 +168,20 @@ table {
     }
     z-index: 100;
     position: relative;
-
   }
-  .menuFooter{
+  .menuFooter {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px 19px 10px 24px;
-    a{
+    a {
       position: relative;
-      img{
-
+      img {
       }
     }
-    &>a::after{
+    & > a::after {
       position: absolute;
       content: "";
       width: 100%;
@@ -193,7 +190,7 @@ table {
       left: 0;
       bottom: 0;
     }
-    h3{
+    h3 {
       margin-top: 14px;
       font-size: 21px;
       font-weight: 400;
@@ -201,18 +198,18 @@ table {
       text-align: center;
       font-family: "VladimirScript";
     }
-    .socialBtns{
+    .socialBtns {
       margin-top: 23px;
       display: flex;
       column-gap: 13px;
       justify-content: center;
       position: relative;
       width: 100%;
-      a{
+      a {
         text-decoration: none;
       }
     }
-    .socialBtns::after{
+    .socialBtns::after {
       position: absolute;
       content: "";
       width: 100%;
@@ -221,23 +218,22 @@ table {
       left: 0;
       bottom: -19px;
     }
-    .copyRight{
+    .copyRight {
       margin-top: 41px;
-      p{
+      p {
         font-size: 9.36px;
         font-family: "HankenGrotesk";
         font-weight: 300;
         color: black;
         text-align: center;
         margin-bottom: 9px;
-        a{
+        a {
           color: black;
           text-decoration: none;
           font-weight: 600;
           text-decoration: none;
         }
-        strong{
-
+        strong {
         }
       }
     }
@@ -469,7 +465,7 @@ table {
           }
         }
       }
-      img{
+      img {
         width: 265px;
       }
     }
@@ -521,85 +517,84 @@ table {
       }
     }
   }
-  .productCat{
+  .productCat {
     overflow: hidden;
     min-height: 589px;
     display: flex;
     align-items: center;
-    .swiper-productCat{
-        // padding-left: 25px;
-        width: 100%;
-        .swiper-slide{
-            // width: 100%!important;
-            // width: fit-content!important;
-            a{
-              text-decoration: none;
-              color: #FFF4E2;
-              // text-align: center;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              h2{
-                font-family: "AdobeArabic";
-                font-weight: 400;
-                font-size: 21.82px;
-                text-align: center;
-                text-transform: uppercase;
-                margin-top: 17px;
-              }
-            }
+    .swiper-productCat {
+      // padding-left: 25px;
+      width: 100%;
+      .swiper-slide {
+        // width: 100%!important;
+        // width: fit-content!important;
+        a {
+          text-decoration: none;
+          color: #fff4e2;
+          // text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h2 {
+            font-family: "AdobeArabic";
+            font-weight: 400;
+            font-size: 21.82px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 17px;
+          }
         }
+      }
     }
   }
-  .projectShow{
-    .section1{
+  .projectShow {
+    .section1 {
       margin-top: 96px;
       margin-bottom: 89px;
       padding: 0 21px 0 24px;
-      .title{
+      .title {
         margin-bottom: 81px;
-        h1{
-          color: #CBBBA0;
+        h1 {
+          color: #cbbba0;
           font-weight: 400;
           text-transform: uppercase;
           font-size: 36px;
           font-family: "HankenGrotesk";
           line-height: 38.85px;
-
         }
       }
-      .projectDetails{
-        ul{
-          li{
+      .projectDetails {
+        ul {
+          li {
             margin-top: 20px;
             font-family: "HankenGrotesk";
             font-weight: 300;
             font-size: 16px;
             line-height: 19.2px;
-            color: #CBBBA0;
-            span{
-              color: white ;
+            color: #cbbba0;
+            span {
+              color: white;
             }
           }
         }
       }
     }
-    .section2{
+    .section2 {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
-      video{
+      video {
         width: 100%;
       }
-      .playBtn{
+      .playBtn {
         position: absolute;
       }
     }
-    .section3{
+    .section3 {
       margin-top: 50px;
       padding: 0 24px;
-      h2{
+      h2 {
         font-size: 24px;
         font-family: "HankenGrotesk";
         color: #797979;
@@ -608,28 +603,28 @@ table {
         margin-bottom: 24px;
       }
     }
-    .section4{
-       padding:0 24px;
-       margin-top: 24px;
-       p{
+    .section4 {
+      padding: 0 24px;
+      margin-top: 24px;
+      p {
         font-family: "HankenGrotesk";
         font-weight: 300;
         font-size: 15px;
         line-height: 19.54px;
         color: white;
         text-align: justify;
-       }
+      }
     }
-    .section5{
+    .section5 {
       padding: 50px 26.5px;
-      img{
+      img {
         width: -webkit-fill-available;
         filter: brightness(0.8);
       }
     }
-    .section6{
+    .section6 {
       padding: 0 27px;
-      h3{
+      h3 {
         font-size: 24px;
         font-family: "HankenGrotesk";
         color: #797979;
@@ -637,26 +632,26 @@ table {
         font-weight: 300;
         margin-bottom: 24px;
       }
-      p{
+      p {
         font-family: "HankenGrotesk";
         font-weight: 300;
         font-size: 15px;
         line-height: 19.54px;
         color: white;
         text-align: justify;
-       }
+      }
     }
-    .section7{
+    .section7 {
       padding: 0 24px;
-      img{
+      img {
         margin-top: 24px;
         width: 100%;
       }
     }
-    .section8{
+    .section8 {
       padding: 24px;
       margin-top: 26px;
-      h3{
+      h3 {
         font-size: 24px;
         font-family: "HankenGrotesk";
         color: #797979;
@@ -664,37 +659,36 @@ table {
         font-weight: 300;
         margin-bottom: 24px;
       }
-      img{
+      img {
         width: 100%;
         margin-bottom: 24px;
       }
-      p{
+      p {
         font-family: "HankenGrotesk";
         font-weight: 300;
         font-size: 15px;
         line-height: 19.54px;
         color: white;
         text-align: justify;
-       }
+      }
     }
-    .section9{
+    .section9 {
       padding: 0 24.5px;
       margin-top: 124px;
       margin-bottom: 100px;
-      .location{
+      .location {
         position: relative;
         margin-bottom: 10px;
-          p{
-            font-family: "HankenGrotesk";
-            font-weight: 300;
-            font-size: 15px;
-            line-height: 19.54px;
-            color: white;
-            text-align: left;
-           }
-        
+        p {
+          font-family: "HankenGrotesk";
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 19.54px;
+          color: white;
+          text-align: left;
+        }
       }
-      .location::before{
+      .location::before {
         content: "";
         position: absolute;
         width: 100%;
@@ -703,31 +697,30 @@ table {
         left: 0;
         background-color: white;
       }
-      .detail{
+      .detail {
         margin-bottom: 50px;
-        ul{
-          li{
-          
-              font-family: "HankenGrotesk";
-              font-weight: 300;
-              font-size: 15px;
-              line-height: 19.54px;
-              color: white;
-              text-align: justify;
-             
-            span{
+        ul {
+          li {
+            font-family: "HankenGrotesk";
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 19.54px;
+            color: white;
+            text-align: justify;
+
+            span {
               color: #808080;
             }
           }
         }
       }
-      .map{
+      .map {
         position: relative;
-        img{
+        img {
           width: 100%;
         }
       }
-      .map::after{
+      .map::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -737,26 +730,26 @@ table {
         background-color: white;
       }
     }
-    .relatedProject{
+    .relatedProject {
       display: flex;
       padding: 0 24px 28px 24px;
       justify-content: end;
       align-items: center;
       column-gap: 19px;
-      .relatedTitle{
-        a{
+      .relatedTitle {
+        a {
           text-decoration: none;
           text-align: right;
           display: flex;
           flex-direction: column;
           align-items: end;
-          span{
+          span {
             font-family: "HankenGrotesk";
             font-weight: 300;
             font-size: 14px;
             color: #959595;
           }
-          h4{
+          h4 {
             font-family: "HankenGrotesk";
             width: min-content;
             font-weight: 400;
@@ -777,65 +770,150 @@ table {
     opacity: 0;
     display: none;
   }
-  .productList{
+  .productList {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-  .swiper-container {
-      .swiper-wrapper{
+    position: relative;
+    .arrow-scroll{
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      right: 10px;
+      animation: 2s infinite arrow-scroll;
+
+    }
+    .swiper-container {
+      .swiper-wrapper {
         padding-left: initial;
         margin: 0;
       }
-      
-      .swiper-slide {
-          
-          width: fit-content;
-      }
-  }
-.swiperDetails{
-  .swiper-slide-active .slide-inner{
-    transform: translateX(0) !important;
-    opacity: 1 !important;
-    transition: 0.5s 1s;
-  }
-  .swiper-slide{
-    display: flex;
-    justify-content: center;
-    
-    .slide-inner{
-      transform: translateX(64%);
-      opacity: 0;
-      transition: 0.5s;
-      padding: 32px 23px 0 26px;
-    }
-    a{
-      text-decoration: none;
-      color: white;
-      h1{
-        font-family: "HankenGrotesk";
-        font-size: 18px;
-        font-weight: 300;
-        text-transform: uppercase;
-        line-height: 21.6px;
 
+      .swiper-slide {
+        width: fit-content;
       }
     }
-    span{
-      font-family: "HankenGrotesk";
-      font-weight: 300;
-      font-size: 12px;
-      color: #AEAEAE;
-    }
-    p{
-      color: white;
-      font-size: 12px;
-      font-family: "HankenGrotesk";
-      line-height: 14.4px;
-      text-align: justify;
-      font-weight: 300;
-      margin-top: 25px;
+    .swiperDetails {
+      .swiper-slide-active .slide-inner {
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+        transition: 0.5s 1s;
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: left;
+
+        .slide-inner {
+          transform: translateX(64%);
+          opacity: 0;
+          transition: 0.5s;
+          padding: 32px 23px 0 26px;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          h1 {
+            font-family: "HankenGrotesk";
+            font-size: 18px;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 21.6px;
+          }
+        }
+        span {
+          font-family: "HankenGrotesk";
+          font-weight: 300;
+          font-size: 12px;
+          color: #aeaeae;
+        }
+        p {
+          color: white;
+          font-size: 12px;
+          font-family: "HankenGrotesk";
+          line-height: 14.4px;
+          text-align: justify;
+          font-weight: 300;
+          margin-top: 25px;
+        }
+      }
     }
   }
-}
+  .projectList {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .arrow-scroll{
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      right: 10px;
+      animation: 2s infinite arrow-scroll;
+
+    }
+    .swiper-container {
+      .swiper-wrapper {
+        padding-left: initial;
+        margin: 0;
+      }
+
+      .swiper-slide {
+        width: fit-content;
+      }
+    }
+    .swiperDetails {
+      .swiper-slide-active .slide-inner {
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+        transition: 0.5s 1s;
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+
+        .slide-inner {
+          transform: translateX(64%);
+          opacity: 0;
+          transition: 0.5s;
+          padding: 32px 23px 0 26px;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          h1 {
+            font-family: "HankenGrotesk";
+            font-size: 18px;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 21.6px;
+          }
+        }
+        span {
+          font-family: "HankenGrotesk";
+          font-weight: 300;
+          font-size: 12px;
+          color: #aeaeae;
+        }
+        p {
+          color: white;
+          font-size: 12px;
+          font-family: "HankenGrotesk";
+          line-height: 14.4px;
+          text-align: justify;
+          font-weight: 300;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+  @keyframes arrow-scroll {
+    0% {
+      transform: translateX(-70%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 0;
+    }
   }
 }
