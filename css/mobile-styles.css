@@ -768,19 +768,14 @@ table {
     width: -moz-fit-content;
     width: fit-content;
   }
-  .productList .swiperDetails .swiper-slide-active .slide-inner {
-    transform: translateX(0) !important;
-    opacity: 1 !important;
-    transition: 0.5s 1s;
-  }
   .productList .swiperDetails .swiper-slide {
     display: flex;
     justify-content: left;
   }
   .productList .swiperDetails .swiper-slide .slide-inner {
-    transform: translateX(64%);
+    transform: translateX(100%);
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.8s;
     padding: 32px 23px 0 26px;
   }
   .productList .swiperDetails .swiper-slide a {
@@ -809,6 +804,11 @@ table {
     font-weight: 300;
     margin-top: 25px;
   }
+  .productList .swiperDetails .swiper-slide-active .slide-inner {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+    transition: 0.5s 0.8s;
+  }
   .projectList {
     width: 100vw;
     height: 100vh;
@@ -833,16 +833,16 @@ table {
   .projectList .swiperDetails .swiper-slide-active .slide-inner {
     transform: translateX(0) !important;
     opacity: 1 !important;
-    transition: 0.5s 1s;
+    transition: 0.5s 0.8s;
   }
   .projectList .swiperDetails .swiper-slide {
     display: flex;
     justify-content: center;
   }
   .projectList .swiperDetails .swiper-slide .slide-inner {
-    transform: translateX(64%);
+    transform: translateX(100%);
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.8s;
     padding: 32px 23px 0 26px;
   }
   .projectList .swiperDetails .swiper-slide a {
@@ -1204,6 +1204,216 @@ table {
     font-size: 15px;
     line-height: 18px;
     text-align: justify;
+  }
+  .product-show .section1 {
+    padding: 41px 45px;
+    text-align: center;
+    margin-top: 44px;
+  }
+  .product-show .section1 h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43.21px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "HankenGrotesk";
+  }
+  .product-show .section1 .briefTitle h5 {
+    margin-top: 20px;
+  }
+  .product-show .section1 .briefTitle h5, .product-show .section1 .briefTitle span {
+    font-weight: 200;
+    line-height: 16.8px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "HankenGrotesk";
+  }
+  .product-show .section1 .briefTitle h5 span:first-child, .product-show .section1 .briefTitle span span:first-child {
+    margin-right: 35px;
+  }
+  .product-show .section1 .briefTitle h5 span:last-child, .product-show .section1 .briefTitle span span:last-child {
+    margin-left: 35px;
+  }
+  .product-show .section2 {
+    margin-bottom: 50px;
+  }
+  .product-show .section2 img {
+    width: 100%;
+  }
+  .product-show .section3 {
+    padding: 24px 25px;
+  }
+  .product-show .section3 p, .product-show .section3 span {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    display: inline;
+  }
+  .product-show .section3 span:first-child {
+    margin-right: 10px;
+  }
+  .product-show .section3 span:last-child {
+    margin-left: 10px;
+  }
+  .product-show .section4, .product-show .section5, .product-show .section7, .product-show .section9 {
+    padding: 25px;
+  }
+  .product-show .section4 .imgContainer, .product-show .section5 .imgContainer, .product-show .section7 .imgContainer, .product-show .section9 .imgContainer {
+    position: relative;
+  }
+  .product-show .section4 img, .product-show .section5 img, .product-show .section7 img, .product-show .section9 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .product-show .section6 {
+    padding: 0 24px 29px 24px;
+  }
+  .product-show .section6 .innerTxt {
+    position: relative;
+    padding-top: 40px;
+    padding-right: 35px;
+  }
+  .product-show .section6 .innerTxt p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    padding: 0 0 60px 0;
+    position: relative;
+  }
+  .product-show .section6 .innerTxt p::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: 25px;
+    right: 0;
+    left: 0;
+  }
+  .product-show .section6 .innerTxt p:last-child {
+    padding: 0;
+  }
+  .product-show .section6 .innerTxt p:last-child::after {
+    display: none;
+  }
+  .product-show .section6 .innerTxt::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .product-show .section8 {
+    padding: 41px 25px 24px 25px;
+  }
+  .product-show .section8 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .product-show .section10 {
+    padding: 41px 25px 24px 25px;
+  }
+  .product-show .section10 h2 {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.7px;
+    text-align: justify;
+  }
+  .product-show .section10 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 19.54px;
+    text-align: justify;
+  }
+  .product-show .section12 {
+    padding: 41px 25px 24px 25px;
+    margin-bottom: 90px;
+  }
+  .product-show .section12 h3 {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 300;
+    padding-top: 26px;
+    font-size: 32px;
+    line-height: 41.7px;
+    text-align: justify;
+    margin-bottom: 109px;
+    position: relative;
+  }
+  .product-show .section12 h3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+  .product-show .section12 ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 10px 28px 14px;
+    position: relative;
+  }
+  .product-show .section12 ul li a {
+    color: #9F9F9F;
+    font-family: "HankenGrotesk";
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 41.7px;
+    text-decoration: none;
+  }
+  .product-show .section12 ul li span {
+    color: #9F9F9F;
+    font-family: "HankenGrotesk";
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .product-show .section12 ul li a:hover, .product-show .section12 ul li a:active {
+    color: white;
+  }
+  .product-show .section12 ul li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background-color: #9F9F9F;
+  }
+  .product-show .section12 ul li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #9F9F9F;
+  }
+  .product-show .section12 ul li:last-child::before {
+    display: none;
   }
   @keyframes arrow-scroll {
     0% {

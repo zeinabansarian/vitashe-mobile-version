@@ -125,11 +125,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+$sl-overlay-background: #693737!important;
 
 @media only screen and (max-width: 576px) {
   body {
     background-color: #171718;
   }
+
   header {
     background-color: #171718;
     display: flex;
@@ -794,19 +796,17 @@ table {
       }
     }
     .swiperDetails {
-      .swiper-slide-active .slide-inner {
-        transform: translateX(0) !important;
-        opacity: 1 !important;
-        transition: 0.5s 1s;
-      }
+     
       .swiper-slide {
         display: flex;
         justify-content: left;
 
         .slide-inner {
-          transform: translateX(64%);
+          transform: translateX(100%);
           opacity: 0;
-          transition: 0.5s;
+          transition: 0.8s;
+          // transition-delay: 1s;
+
           padding: 32px 23px 0 26px;
         }
         a {
@@ -835,6 +835,12 @@ table {
           font-weight: 300;
           margin-top: 25px;
         }
+      }
+      .swiper-slide-active .slide-inner {
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+        transition: 0.5s 0.8s;
+        // transition-delay: 1s;
       }
     }
   }
@@ -865,16 +871,16 @@ table {
       .swiper-slide-active .slide-inner {
         transform: translateX(0) !important;
         opacity: 1 !important;
-        transition: 0.5s 1s;
+        transition: 0.5s 0.8s;
       }
       .swiper-slide {
         display: flex;
         justify-content: center;
-
+        
         .slide-inner {
-          transform: translateX(64%);
+          transform: translateX(100%);
           opacity: 0;
-          transition: 0.5s;
+          transition: 0.8s;
           padding: 32px 23px 0 26px;
         }
         a {
@@ -1254,6 +1260,231 @@ table {
 
     }
   }
+ .product-show{
+  .section1{
+    padding: 41px 45px;
+    text-align: center;
+    margin-top: 44px;
+    h1{
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 43.21px;
+      letter-spacing: -7.5%;
+      color: white;
+      text-transform: uppercase;
+      font-family: "HankenGrotesk";
+      
+    }
+    .briefTitle{
+      h5{
+        margin-top: 20px;
+      }
+      h5 , span{
+        font-weight: 200;
+        line-height: 16.8px;
+        letter-spacing: -7.5%;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "HankenGrotesk";
+        span:first-child{
+          margin-right: 35px;
+        }
+        span:last-child{
+          margin-left: 35px;
+        }
+      }
+    }
+  }
+  .section2{
+    margin-bottom: 50px;
+    img{
+      width: 100%;
+    }
+  }
+  .section3{
+    padding: 24px 25px;
+    // display: flex;
+    // flex-direction: column;
+    // row-gap: 20px;
+    p , span{
+      font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 200;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+      display: inline;
+    }
+    span:first-child{
+      margin-right: 10px;
+    }
+    span:last-child{
+      margin-left: 10px;
+    }
+  }
+  .section4 , .section5 , .section7 , .section9{
+    padding: 25px;
+      .imgContainer{
+        position: relative;
+      }
+      img{
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+  }
+  .section6{
+    padding: 0 24px 29px 24px;
+    .innerTxt{
+      position: relative;
+      padding-top: 40px;
+      padding-right: 35px;
+      p{
+        font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 200;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+        padding: 0 0 60px 0;
+        position: relative;
+      }
+      p::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        bottom: 25px;
+        right: 0;
+        left: 0;
+      }
+      p:last-child{
+        padding: 0;
+      }
+      p:last-child::after{
+        display: none;
+      }
+    }
+    .innerTxt::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: white;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+  }
+  .section8{
+    padding: 41px 25px 24px 25px;
+    p{
+      font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 200;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+    }
+  
+  }
+  .section10{
+    padding: 41px 25px 24px 25px;
+
+    h2{
+      font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 41.7px;
+      text-align: justify;
+    }
+    p{
+      font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 200;
+      font-size: 15px;
+      line-height: 19.54px;
+      text-align: justify;
+    }
+  }
+  .section12{
+    padding: 41px 25px 24px 25px;
+    margin-bottom: 90px;
+    h3{
+      font-family: "HankenGrotesk";
+      color: white;
+      font-weight: 300;
+      padding-top: 26px;
+      font-size: 32px;
+      line-height: 41.7px;
+      text-align: justify;
+      margin-bottom: 109px;
+      position: relative;
+    }
+    h3::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      top: 0;
+      left: 0;
+      background-color: white;
+    }
+    ul{
+      li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 10px 28px 14px;
+        position: relative;
+
+        a{
+          color: #9F9F9F;
+          font-family: "HankenGrotesk";
+          font-weight: 200;
+          font-size: 32px;
+          line-height: 41.7px;
+          text-decoration: none;
+        }
+        span{
+          color: #9F9F9F;
+          font-family: "HankenGrotesk";
+          font-weight: 200;
+          font-size: 32px;
+          line-height: 41.7px;
+
+        }
+        a:hover , a:active{
+          color: white;
+        }
+
+      }
+      li::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        top: 0;
+        left: 0;
+        background-color: #9F9F9F;
+      }
+      li::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #9F9F9F;
+      }
+      li:last-child::before{
+        display: none;
+      }
+    }
+  }
+ }
   @keyframes arrow-scroll {
     0% {
       transform: translateX(-70%);
