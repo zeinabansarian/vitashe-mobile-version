@@ -906,6 +906,354 @@ table {
       }
     }
   }
+  .aboutUS{
+    .section1{
+      padding: 41px 45px;
+      text-align: center;
+      margin-top: 44px;
+      h1{
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43.21px;
+        letter-spacing: -7.5%;
+        color: white;
+        text-transform: uppercase;
+        font-family: "HankenGrotesk";
+        
+      }
+      .briefTitle{
+        h5{
+          margin-top: 20px;
+        }
+        h5 , span{
+          font-weight: 300;
+          line-height: 16.8px;
+          letter-spacing: -7.5%;
+          color: white;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-family: "HankenGrotesk";
+          span:first-child{
+            margin-right: 35px;
+          }
+          span:last-child{
+            margin-left: 35px;
+          }
+        }
+      }
+    }
+    .section2{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      video{
+        width: 100%;
+        object-fit: cover;
+      }
+      .playBtn{
+        position: absolute;
+        z-index: 10;
+      }
+
+    }
+    .section3{
+      padding: 41px 25px 24px 25px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+    }
+    .section4,.section7{
+      padding: 0 25px 24px 25px;
+      .imgContainer{
+        position: relative;
+        span{
+          position: absolute;
+          right: -10px;
+          writing-mode: vertical-rl;
+          color: #CBBBA0;
+          font-weight: 300;
+          font-family: "HankenGrotesk";
+          font-size: 8px;
+          text-transform: uppercase;
+          bottom: 2px;
+        }
+      }
+      img{
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+    }
+    .section5{
+      padding: 24px 25px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+    }
+    .section6 , .section8{
+      padding: 0 25px 24px 25px;
+      .imgContainer{
+        position: relative;
+        span{
+          transform: rotate(180deg);
+          position: absolute;
+          left: -10px;
+          writing-mode: vertical-rl;
+          color: #CBBBA0;
+          font-weight: 300;
+          font-family: "HankenGrotesk";
+          font-size: 8px;
+          text-transform: uppercase;
+          bottom: 4px;
+        }
+      }
+      img{
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+    }
+    .section9{
+      h2{
+        font-family: "HankenGrotesk";
+        font-weight: 400;
+        font-size: 32px;
+        color: white;
+        padding: 20px 24px 10px;
+      }
+      img{
+        filter: brightness(0.55);
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+    }
+    .section10{
+      padding: 24px 25px;
+      display: flex;
+      flex-direction: column;
+      h6{
+        margin-bottom: 12px;
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      a{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+        border: 1px solid #FFF4E2;
+        padding: 10px 32px;
+        margin-top: 24px;
+        text-decoration: none;
+        width: fit-content;
+        align-self: end;
+      }
+    }
+    .section11{
+      padding: 24px 25px;
+      margin-bottom: 20px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      .txtContainer{
+        position: relative;
+      }
+      .txtContainer::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #FFF4E2;
+        top: -24px;
+      }
+    }
+  }
+  .factory{
+    .section1{
+      padding: 41px 45px;
+      text-align: center;
+      margin-top: 44px;
+      h1{
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43.21px;
+        letter-spacing: -7.5%;
+        color: white;
+        text-transform: uppercase;
+        font-family: "HankenGrotesk";
+        
+      }
+      .briefTitle{
+        h5{
+          margin-top: 20px;
+        }
+        h5 , span{
+          font-weight: 300;
+          line-height: 16.8px;
+          letter-spacing: -7.5%;
+          color: white;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-family: "HankenGrotesk";
+          span:first-child{
+            margin-right: 35px;
+          }
+          span:last-child{
+            margin-left: 35px;
+          }
+        }
+      }
+    }
+    .section2 , .section9{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      video{
+        width: 100%;
+        object-fit: cover;
+      }
+      .playBtn{
+        position: absolute;
+        z-index: 10;
+      }
+
+    }
+    .section3{
+      padding: 41px 25px 24px 25px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      h6{
+        margin-bottom: 12px;
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        text-align: justify;
+      }
+    }
+    .section4{
+      padding: 0 25px 24px 25px;
+      .imgContainer{
+        position: relative;
+      }
+      img{
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+    }
+    .section5 , .section7 {
+      padding: 24px 25px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      h6{
+        margin-bottom: 12px;
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        text-align: justify;
+      }
+    }
+    .section6 , .section8 , .section11{
+      padding: 0 25px 24px 25px;
+      .imgContainer{
+        position: relative;
+      }
+      img{
+        width: -moz-available;
+        width: -webkit-fill-available;
+      }
+    }
+    .section7{
+      padding-top: 0;
+    }
+    .section10{
+      padding: 24px 25px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+    }
+    .section12{
+      img{
+        width: 100%;
+      }
+    }
+    .section13{
+      padding: 24px 25px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      h6{
+        margin-bottom: 12px;
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        text-align: justify;
+      }
+      p{
+        font-family: "HankenGrotesk";
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+      }
+
+    }
+  }
   @keyframes arrow-scroll {
     0% {
       transform: translateX(-70%);

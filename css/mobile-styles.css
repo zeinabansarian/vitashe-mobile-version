@@ -871,6 +871,340 @@ table {
     font-weight: 300;
     margin-top: 25px;
   }
+  .aboutUS .section1 {
+    padding: 41px 45px;
+    text-align: center;
+    margin-top: 44px;
+  }
+  .aboutUS .section1 h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43.21px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "HankenGrotesk";
+  }
+  .aboutUS .section1 .briefTitle h5 {
+    margin-top: 20px;
+  }
+  .aboutUS .section1 .briefTitle h5, .aboutUS .section1 .briefTitle span {
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "HankenGrotesk";
+  }
+  .aboutUS .section1 .briefTitle h5 span:first-child, .aboutUS .section1 .briefTitle span span:first-child {
+    margin-right: 35px;
+  }
+  .aboutUS .section1 .briefTitle h5 span:last-child, .aboutUS .section1 .briefTitle span span:last-child {
+    margin-left: 35px;
+  }
+  .aboutUS .section2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutUS .section2 video {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .aboutUS .section2 .playBtn {
+    position: absolute;
+    z-index: 10;
+  }
+  .aboutUS .section3 {
+    padding: 41px 25px 24px 25px;
+  }
+  .aboutUS .section3 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .aboutUS .section4, .aboutUS .section7 {
+    padding: 0 25px 24px 25px;
+  }
+  .aboutUS .section4 .imgContainer, .aboutUS .section7 .imgContainer {
+    position: relative;
+  }
+  .aboutUS .section4 .imgContainer span, .aboutUS .section7 .imgContainer span {
+    position: absolute;
+    right: -10px;
+    writing-mode: vertical-rl;
+    color: #CBBBA0;
+    font-weight: 300;
+    font-family: "HankenGrotesk";
+    font-size: 8px;
+    text-transform: uppercase;
+    bottom: 2px;
+  }
+  .aboutUS .section4 img, .aboutUS .section7 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .aboutUS .section5 {
+    padding: 24px 25px;
+  }
+  .aboutUS .section5 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .aboutUS .section6, .aboutUS .section8 {
+    padding: 0 25px 24px 25px;
+  }
+  .aboutUS .section6 .imgContainer, .aboutUS .section8 .imgContainer {
+    position: relative;
+  }
+  .aboutUS .section6 .imgContainer span, .aboutUS .section8 .imgContainer span {
+    transform: rotate(180deg);
+    position: absolute;
+    left: -10px;
+    writing-mode: vertical-rl;
+    color: #CBBBA0;
+    font-weight: 300;
+    font-family: "HankenGrotesk";
+    font-size: 8px;
+    text-transform: uppercase;
+    bottom: 4px;
+  }
+  .aboutUS .section6 img, .aboutUS .section8 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .aboutUS .section9 h2 {
+    font-family: "HankenGrotesk";
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    padding: 20px 24px 10px;
+  }
+  .aboutUS .section9 img {
+    filter: brightness(0.55);
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .aboutUS .section10 {
+    padding: 24px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutUS .section10 h6 {
+    margin-bottom: 12px;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .aboutUS .section10 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .aboutUS .section10 a {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    border: 1px solid #FFF4E2;
+    padding: 10px 32px;
+    margin-top: 24px;
+    text-decoration: none;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: end;
+  }
+  .aboutUS .section11 {
+    padding: 24px 25px;
+    margin-bottom: 20px;
+  }
+  .aboutUS .section11 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .aboutUS .section11 .txtContainer {
+    position: relative;
+  }
+  .aboutUS .section11 .txtContainer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #FFF4E2;
+    top: -24px;
+  }
+  .factory .section1 {
+    padding: 41px 45px;
+    text-align: center;
+    margin-top: 44px;
+  }
+  .factory .section1 h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43.21px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "HankenGrotesk";
+  }
+  .factory .section1 .briefTitle h5 {
+    margin-top: 20px;
+  }
+  .factory .section1 .briefTitle h5, .factory .section1 .briefTitle span {
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: -7.5%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "HankenGrotesk";
+  }
+  .factory .section1 .briefTitle h5 span:first-child, .factory .section1 .briefTitle span span:first-child {
+    margin-right: 35px;
+  }
+  .factory .section1 .briefTitle h5 span:last-child, .factory .section1 .briefTitle span span:last-child {
+    margin-left: 35px;
+  }
+  .factory .section2, .factory .section9 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .factory .section2 video, .factory .section9 video {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .factory .section2 .playBtn, .factory .section9 .playBtn {
+    position: absolute;
+    z-index: 10;
+  }
+  .factory .section3 {
+    padding: 41px 25px 24px 25px;
+  }
+  .factory .section3 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section3 h6 {
+    margin-bottom: 12px;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section4 {
+    padding: 0 25px 24px 25px;
+  }
+  .factory .section4 .imgContainer {
+    position: relative;
+  }
+  .factory .section4 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .factory .section5, .factory .section7 {
+    padding: 24px 25px;
+  }
+  .factory .section5 p, .factory .section7 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section5 h6, .factory .section7 h6 {
+    margin-bottom: 12px;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section6, .factory .section8, .factory .section11 {
+    padding: 0 25px 24px 25px;
+  }
+  .factory .section6 .imgContainer, .factory .section8 .imgContainer, .factory .section11 .imgContainer {
+    position: relative;
+  }
+  .factory .section6 img, .factory .section8 img, .factory .section11 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+  .factory .section7 {
+    padding-top: 0;
+  }
+  .factory .section10 {
+    padding: 24px 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .factory .section10 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section12 img {
+    width: 100%;
+  }
+  .factory .section13 {
+    padding: 24px 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .factory .section13 h6 {
+    margin-bottom: 12px;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .factory .section13 p {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+  }
   @keyframes arrow-scroll {
     0% {
       transform: translateX(-70%);
