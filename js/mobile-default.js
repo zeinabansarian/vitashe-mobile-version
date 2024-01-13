@@ -1,6 +1,6 @@
 let body = document.querySelector('body');
 let intro = document.querySelector(".intro");
-body.addEventListener("wheel", () => {
+body.addEventListener("touchstart", () => {
   gsap.to(".intro",{
     y:'-150%',
     duration:2.1,

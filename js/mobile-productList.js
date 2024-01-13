@@ -1,5 +1,5 @@
 var swiper = new Swiper(".swiper-container", {
-  slidesPerView: "auto",
+  slidesPerView: 1.5,
 //   loop: true,
 dalay:18000,
 

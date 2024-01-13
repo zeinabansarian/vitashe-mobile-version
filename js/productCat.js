@@ -4,7 +4,7 @@ var mySwiper = new Swiper(".swiper-productCat", {
     // centeredSlides: true,
     speed: 1500,
     mousewheel: true,
-    spaceBetween: 0,
+    spaceBetween: 20,
 
     // freemode:true,
   });

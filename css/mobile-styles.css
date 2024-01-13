@@ -656,7 +656,6 @@ table {
   .projectShow .section9 {
     padding: 0 24.5px;
     margin-top: 124px;
-    margin-bottom: 100px;
   }
   .projectShow .section9 .location {
     position: relative;
@@ -695,6 +694,7 @@ table {
   }
   .projectShow .section9 .map {
     position: relative;
+    padding-bottom: 50px;
   }
   .projectShow .section9 .map img {
     width: 100%;
@@ -704,13 +704,13 @@ table {
     position: absolute;
     width: 100%;
     height: 1px;
-    bottom: -50px;
+    bottom: 0;
     left: 0;
     background-color: white;
   }
   .projectShow .relatedProject {
     display: flex;
-    padding: 0 24px 28px 24px;
+    padding: 50px 24px 28px 24px;
     justify-content: end;
     align-items: center;
     -moz-column-gap: 19px;
@@ -755,7 +755,7 @@ table {
   }
   .productList .arrow-scroll {
     position: absolute;
-    top: 50%;
+    top: 35%;
     z-index: 10;
     right: 10px;
     animation: 2s infinite arrow-scroll;
@@ -888,7 +888,8 @@ table {
   .aboutUS .section1 .briefTitle h5 {
     margin-top: 20px;
   }
-  .aboutUS .section1 .briefTitle h5, .aboutUS .section1 .briefTitle span {
+  .aboutUS .section1 .briefTitle h5,
+  .aboutUS .section1 .briefTitle span {
     font-weight: 300;
     line-height: 16.8px;
     letter-spacing: -7.5%;
@@ -897,10 +898,12 @@ table {
     font-size: 14px;
     font-family: "HankenGrotesk";
   }
-  .aboutUS .section1 .briefTitle h5 span:first-child, .aboutUS .section1 .briefTitle span span:first-child {
+  .aboutUS .section1 .briefTitle h5 span:first-child,
+  .aboutUS .section1 .briefTitle span span:first-child {
     margin-right: 35px;
   }
-  .aboutUS .section1 .briefTitle h5 span:last-child, .aboutUS .section1 .briefTitle span span:last-child {
+  .aboutUS .section1 .briefTitle h5 span:last-child,
+  .aboutUS .section1 .briefTitle span span:last-child {
     margin-left: 35px;
   }
   .aboutUS .section2 {
@@ -929,24 +932,28 @@ table {
     line-height: 18px;
     text-align: justify;
   }
-  .aboutUS .section4, .aboutUS .section7 {
+  .aboutUS .section4,
+  .aboutUS .section7 {
     padding: 0 25px 24px 25px;
   }
-  .aboutUS .section4 .imgContainer, .aboutUS .section7 .imgContainer {
+  .aboutUS .section4 .imgContainer,
+  .aboutUS .section7 .imgContainer {
     position: relative;
   }
-  .aboutUS .section4 .imgContainer span, .aboutUS .section7 .imgContainer span {
+  .aboutUS .section4 .imgContainer span,
+  .aboutUS .section7 .imgContainer span {
     position: absolute;
     right: -10px;
     writing-mode: vertical-rl;
-    color: #CBBBA0;
+    color: #cbbba0;
     font-weight: 300;
     font-family: "HankenGrotesk";
     font-size: 8px;
     text-transform: uppercase;
     bottom: 2px;
   }
-  .aboutUS .section4 img, .aboutUS .section7 img {
+  .aboutUS .section4 img,
+  .aboutUS .section7 img {
     width: -moz-available;
     width: -webkit-fill-available;
   }
@@ -961,25 +968,29 @@ table {
     line-height: 18px;
     text-align: justify;
   }
-  .aboutUS .section6, .aboutUS .section8 {
+  .aboutUS .section6,
+  .aboutUS .section8 {
     padding: 0 25px 24px 25px;
   }
-  .aboutUS .section6 .imgContainer, .aboutUS .section8 .imgContainer {
+  .aboutUS .section6 .imgContainer,
+  .aboutUS .section8 .imgContainer {
     position: relative;
   }
-  .aboutUS .section6 .imgContainer span, .aboutUS .section8 .imgContainer span {
+  .aboutUS .section6 .imgContainer span,
+  .aboutUS .section8 .imgContainer span {
     transform: rotate(180deg);
     position: absolute;
     left: -10px;
     writing-mode: vertical-rl;
-    color: #CBBBA0;
+    color: #cbbba0;
     font-weight: 300;
     font-family: "HankenGrotesk";
     font-size: 8px;
     text-transform: uppercase;
     bottom: 4px;
   }
-  .aboutUS .section6 img, .aboutUS .section8 img {
+  .aboutUS .section6 img,
+  .aboutUS .section8 img {
     width: -moz-available;
     width: -webkit-fill-available;
   }
@@ -1024,7 +1035,7 @@ table {
     font-size: 15px;
     line-height: 18px;
     text-align: justify;
-    border: 1px solid #FFF4E2;
+    border: 1px solid #fff4e2;
     padding: 10px 32px;
     margin-top: 24px;
     text-decoration: none;
@@ -1045,6 +1056,12 @@ table {
     text-align: justify;
   }
   .aboutUS .section11 .txtContainer {
+    font-family: "HankenGrotesk";
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
     position: relative;
   }
   .aboutUS .section11 .txtContainer::before {
@@ -1052,7 +1069,7 @@ table {
     content: "";
     width: 100%;
     height: 1px;
-    background-color: #FFF4E2;
+    background-color: #fff4e2;
     top: -24px;
   }
   .factory .section1 {
@@ -1072,7 +1089,8 @@ table {
   .factory .section1 .briefTitle h5 {
     margin-top: 20px;
   }
-  .factory .section1 .briefTitle h5, .factory .section1 .briefTitle span {
+  .factory .section1 .briefTitle h5,
+  .factory .section1 .briefTitle span {
     font-weight: 300;
     line-height: 16.8px;
     letter-spacing: -7.5%;
@@ -1081,24 +1099,29 @@ table {
     font-size: 14px;
     font-family: "HankenGrotesk";
   }
-  .factory .section1 .briefTitle h5 span:first-child, .factory .section1 .briefTitle span span:first-child {
+  .factory .section1 .briefTitle h5 span:first-child,
+  .factory .section1 .briefTitle span span:first-child {
     margin-right: 35px;
   }
-  .factory .section1 .briefTitle h5 span:last-child, .factory .section1 .briefTitle span span:last-child {
+  .factory .section1 .briefTitle h5 span:last-child,
+  .factory .section1 .briefTitle span span:last-child {
     margin-left: 35px;
   }
-  .factory .section2, .factory .section9 {
+  .factory .section2,
+  .factory .section9 {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .factory .section2 video, .factory .section9 video {
+  .factory .section2 video,
+  .factory .section9 video {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .factory .section2 .playBtn, .factory .section9 .playBtn {
+  .factory .section2 .playBtn,
+  .factory .section9 .playBtn {
     position: absolute;
     z-index: 10;
   }
@@ -1132,10 +1155,12 @@ table {
     width: -moz-available;
     width: -webkit-fill-available;
   }
-  .factory .section5, .factory .section7 {
+  .factory .section5,
+  .factory .section7 {
     padding: 24px 25px;
   }
-  .factory .section5 p, .factory .section7 p {
+  .factory .section5 p,
+  .factory .section7 p {
     font-family: "HankenGrotesk";
     color: white;
     font-weight: 200;
@@ -1143,7 +1168,8 @@ table {
     line-height: 18px;
     text-align: justify;
   }
-  .factory .section5 h6, .factory .section7 h6 {
+  .factory .section5 h6,
+  .factory .section7 h6 {
     margin-bottom: 12px;
     font-family: "HankenGrotesk";
     color: white;
@@ -1152,13 +1178,19 @@ table {
     line-height: 18px;
     text-align: justify;
   }
-  .factory .section6, .factory .section8, .factory .section11 {
+  .factory .section6,
+  .factory .section8,
+  .factory .section11 {
     padding: 0 25px 24px 25px;
   }
-  .factory .section6 .imgContainer, .factory .section8 .imgContainer, .factory .section11 .imgContainer {
+  .factory .section6 .imgContainer,
+  .factory .section8 .imgContainer,
+  .factory .section11 .imgContainer {
     position: relative;
   }
-  .factory .section6 img, .factory .section8 img, .factory .section11 img {
+  .factory .section6 img,
+  .factory .section8 img,
+  .factory .section11 img {
     width: -moz-available;
     width: -webkit-fill-available;
   }
@@ -1222,7 +1254,8 @@ table {
   .product-show .section1 .briefTitle h5 {
     margin-top: 20px;
   }
-  .product-show .section1 .briefTitle h5, .product-show .section1 .briefTitle span {
+  .product-show .section1 .briefTitle h5,
+  .product-show .section1 .briefTitle span {
     font-weight: 200;
     line-height: 16.8px;
     letter-spacing: -7.5%;
@@ -1231,10 +1264,12 @@ table {
     font-size: 14px;
     font-family: "HankenGrotesk";
   }
-  .product-show .section1 .briefTitle h5 span:first-child, .product-show .section1 .briefTitle span span:first-child {
+  .product-show .section1 .briefTitle h5 span:first-child,
+  .product-show .section1 .briefTitle span span:first-child {
     margin-right: 35px;
   }
-  .product-show .section1 .briefTitle h5 span:last-child, .product-show .section1 .briefTitle span span:last-child {
+  .product-show .section1 .briefTitle h5 span:last-child,
+  .product-show .section1 .briefTitle span span:last-child {
     margin-left: 35px;
   }
   .product-show .section2 {
@@ -1246,7 +1281,8 @@ table {
   .product-show .section3 {
     padding: 24px 25px;
   }
-  .product-show .section3 p, .product-show .section3 span {
+  .product-show .section3 p,
+  .product-show .section3 span {
     font-family: "HankenGrotesk";
     color: white;
     font-weight: 200;
@@ -1261,13 +1297,25 @@ table {
   .product-show .section3 span:last-child {
     margin-left: 10px;
   }
-  .product-show .section4, .product-show .section5, .product-show .section7, .product-show .section9 {
+  .product-show .section4,
+  .product-show .section5,
+  .product-show .section7,
+  .product-show .section9,
+  .product-show .section11 {
     padding: 25px;
   }
-  .product-show .section4 .imgContainer, .product-show .section5 .imgContainer, .product-show .section7 .imgContainer, .product-show .section9 .imgContainer {
+  .product-show .section4 .imgContainer,
+  .product-show .section5 .imgContainer,
+  .product-show .section7 .imgContainer,
+  .product-show .section9 .imgContainer,
+  .product-show .section11 .imgContainer {
     position: relative;
   }
-  .product-show .section4 img, .product-show .section5 img, .product-show .section7 img, .product-show .section9 img {
+  .product-show .section4 img,
+  .product-show .section5 img,
+  .product-show .section7 img,
+  .product-show .section9 img,
+  .product-show .section11 img {
     width: -moz-available;
     width: -webkit-fill-available;
   }
@@ -1377,7 +1425,7 @@ table {
     position: relative;
   }
   .product-show .section12 ul li a {
-    color: #9F9F9F;
+    color: #9f9f9f;
     font-family: "HankenGrotesk";
     font-weight: 200;
     font-size: 32px;
@@ -1385,13 +1433,14 @@ table {
     text-decoration: none;
   }
   .product-show .section12 ul li span {
-    color: #9F9F9F;
+    color: #9f9f9f;
     font-family: "HankenGrotesk";
     font-weight: 200;
     font-size: 32px;
     line-height: 41.7px;
   }
-  .product-show .section12 ul li a:hover, .product-show .section12 ul li a:active {
+  .product-show .section12 ul li a:hover,
+  .product-show .section12 ul li a:active {
     color: white;
   }
   .product-show .section12 ul li::before {
@@ -1401,7 +1450,7 @@ table {
     height: 1px;
     top: 0;
     left: 0;
-    background-color: #9F9F9F;
+    background-color: #9f9f9f;
   }
   .product-show .section12 ul li::after {
     content: "";
@@ -1410,10 +1459,129 @@ table {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #9F9F9F;
+    background-color: #9f9f9f;
   }
   .product-show .section12 ul li:last-child::before {
     display: none;
+  }
+  .contact-us .contactDetail {
+    padding: 0 48px;
+    margin-top: 65px;
+    text-align: center;
+  }
+  .contact-us .contactDetail h1 {
+    font-family: "HankenGrotesk";
+    font-size: 36px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .contact-us .contactDetail h1 .line {
+    display: inline !important;
+    margin-left: 5px;
+  }
+  .contact-us .contactDetail p {
+    font-family: "HankenGrotesk";
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    line-height: 18px;
+  }
+  .contact-us .contactInfo {
+    margin: 32px 0;
+    text-align: center;
+  }
+  .contact-us .contactInfo p {
+    font-family: "HankenGrotesk";
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .contact-us .contactInfo > a {
+    text-decoration: none;
+    font-family: "HankenGrotesk";
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    display: block;
+    line-height: 18px;
+  }
+  .contact-us .contactInfo .socialBtns {
+    display: flex;
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+  }
+  .contact-us .map {
+    padding: 0 25px;
+  }
+  .contact-us .map iframe {
+    width: -moz-available;
+    width: -webkit-fill-available;
+    height: 201px;
+  }
+  .contact-us .contactForm {
+    padding: 59px 24px 98px 24px;
+  }
+  .contact-us .contactForm form input,
+  .contact-us .contactForm form textarea {
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    padding: 10px 3px;
+  }
+  .contact-us .contactForm form .formInput ~ label {
+    position: absolute;
+    left: 3px;
+    width: 100%;
+    top: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "HankenGrotesk";
+    font-weight: 200;
+    font-size: 15px;
+    transition: 0.3s;
+    letter-spacing: -0.5px;
+    z-index: -1;
+  }
+  .contact-us .contactForm form .formInput:focus ~ label,
+  .contact-us .contactForm form .has-content.formInput ~ label {
+    top: -15px;
+    transition: 0.3s;
+  }
+  .contact-us .contactForm form .formInput {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+  }
+  .contact-us .contactForm form :focus {
+    outline: none;
+  }
+  .contact-us .contactForm form .input {
+    margin-top: 32px;
+    position: relative;
+  }
+  .contact-us .contactForm form button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "HankenGrotesk";
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    margin: 0 auto;
+    margin-top: 37px;
   }
   @keyframes arrow-scroll {
     0% {
